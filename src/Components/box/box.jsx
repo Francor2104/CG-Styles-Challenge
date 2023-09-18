@@ -10,7 +10,7 @@ const Box = () => {
             <div className='row-sort'>
                     <p className='sort'> Showing 15 of 30 </p>
                 <div className='feature'>
-                    <img src="/public/settings.png" alt="" className='feature-icon' />
+                    <img src="/settings.png" alt="" className='feature-icon' />
                     <select disabled className='select-feature'>
                         <option selected value="All">Featured</option>
                     </select>
