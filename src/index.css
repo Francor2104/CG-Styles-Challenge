@@ -12,6 +12,10 @@
     flex-direction: column;
 }
 
+html {
+  overflow-x: hidden;
+}
+
   * {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;

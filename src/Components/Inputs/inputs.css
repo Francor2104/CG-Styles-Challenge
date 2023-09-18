@@ -199,9 +199,13 @@
     .select-filter-bg {
         min-width: 160px !important;
     }
+
+    .filter {
+        min-width: 360px;
+    }
     
     .select-filter {
-        width: 60%;
+        width: 75%;
         padding-right: 0;
     }
 }
