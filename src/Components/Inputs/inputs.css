@@ -189,19 +189,19 @@
     }
 
     .select-game-bg {
-        min-width: 360px;
+        min-width: 268px;
     }
 
     .search {
-        min-width: 360px;
+        min-width: 268px;
     }
 
     .select-filter-bg {
-        min-width: 160px !important;
+        min-width: 130px !important;
     }
 
     .filter {
-        min-width: 360px;
+        min-width: 268px;
     }
     
     .select-filter {
