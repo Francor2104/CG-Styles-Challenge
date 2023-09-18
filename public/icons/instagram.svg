@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".109" x2=".896" y1=".818" y2=".285" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f09781"/>
+            <stop offset="1" stop-color="#d42882"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Instagram_circle" transform="translate(-235 -835)">
+        <circle id="Ellipse_129" cx="20" cy="20" r="20" fill="url(#linear-gradient)" transform="translate(235 835)"/>
+        <g id="icons8-instagram" transform="translate(241 841)">
+            <path id="Path_1480" d="M14.917 11a3.917 3.917 0 1 0 3.917 3.917A3.917 3.917 0 0 0 14.917 11z" class="cls-2" transform="translate(-.917 -.917)"/>
+            <path id="Path_1481" d="M18.582 3H9.416A6.424 6.424 0 0 0 3 9.418v9.167A6.424 6.424 0 0 0 9.418 25h9.167A6.424 6.424 0 0 0 25 18.582V9.416A6.424 6.424 0 0 0 18.582 3zM14 19.5a5.5 5.5 0 1 1 5.5-5.5 5.506 5.506 0 0 1-5.5 5.5zm6.417-11a.917.917 0 1 1 .917-.917.917.917 0 0 1-.917.917z" class="cls-2"/>
+        </g>
+    </g>
+</svg>

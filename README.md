@@ -1,2 +1,0 @@
-# CG-Styles-Challenge
- 

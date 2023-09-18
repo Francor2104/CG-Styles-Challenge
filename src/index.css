@@ -1,0 +1,31 @@
+:root {
+    --bg-color: #222327;
+    --text-color: #FFF;
+    --main-color: #39e29d;
+  }
+  
+
+#root {
+    padding-top: 150px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+  * {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    position: relative;
+    background: linear-gradient(rgba(48, 49, 65, 0.90),rgba(48, 49, 65, 0.90)),
+    url('../public/background-modified.jpg') no-repeat center
+    center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}

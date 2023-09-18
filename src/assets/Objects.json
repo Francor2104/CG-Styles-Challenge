@@ -1,0 +1,124 @@
+{
+    "items": [
+      {
+        "name": "Ocarina of Time",
+        "price": 100,
+        "image": "/object-icons/ocarina.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Magical musical instrument."
+      },
+      {
+        "name": "Fairy Mask",
+        "price": 50,
+        "image": "/object-icons/Fairy_mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Attracts fairies for healing."
+      },
+      {
+        "name": "Gilded Sword",
+        "price": 200,
+        "image": "/object-icons/Gilded_Sword.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Powerful and upgraded sword."
+      },
+      {
+        "name": "Hylian Shield",
+        "price": 80,
+        "image": "/object-icons/shield.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Shield of a nameless hero."
+      },
+      {
+        "name": "Blast Mask",
+        "price": 40,
+        "image": "/object-icons/Blast_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 10,
+        "description": "Mask that explodes when used."
+      },
+      {
+        "name": "Zora Mask",
+        "price": 70,
+        "image": "/object-icons/Zora_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Transforms you into a Zora."
+      },
+      {
+        "name": "Goron Mask",
+        "price": 70,
+        "image": "/object-icons/Goron_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 10,
+        "description": "Transforms you into a Goron."
+      },
+      {
+        "name": "Deku Mask",
+        "price": 60,
+        "image": "/object-icons/Deku_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Transforms you into a Deku."
+      },
+      {
+        "name": "Mask of Truth",
+        "price": 40,
+        "image": "/object-icons/Mask_of_Truth.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Reveals hidden secrets."
+      },
+      {
+        "name": "Captain's Hat",
+        "price": 30,
+        "image": "/object-icons/Captain's_Hat.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Controls the undead."
+      },
+      {
+        "name": "Romani's Mask",
+        "price": 50,
+        "image": "/object-icons/Romani's_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Protects from evil spirits."
+      },
+      {
+        "name": "Giant's Mask",
+        "price": 150,
+        "image": "/object-icons/Giant's_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 70,
+        "description": "Turns you into a giant."
+      },
+      {
+        "name": "Stone Mask",
+        "price": 20,
+        "image": "/object-icons/Stone_Mask.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Makes you invisible to enemies."
+      },
+      {
+        "name": "Postman's Hat",
+        "price": 25,
+        "image": "/object-icons/Postmans_Hat.png",
+        "saga": "The Legend of Zelda",
+        "discount": 0,
+        "description": "Controls the flow of time."
+      },
+      {
+        "name": "Lens of Truth",
+        "price": 60,
+        "image": "/object-icons/Lens_of_Truth.png",
+        "saga": "The Legend of Zelda",
+        "discount": 20,
+        "description": "Reveals hidden truths and illusions."
+      }
+    ]
+  }
