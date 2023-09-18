@@ -12,12 +12,19 @@ Follow these steps to install and run the project on your computer:
   1. Clone this repository to your local machine. You can do this by downloading the ZIP file or using GIt in your terminal: https://github.com/Francor2104/CG-Styles-Challenge.git
      
   2. Open a terminal and navigate to the project directory:
-     cd Cg-Styles-Challenge
+  ```
+  cd Cg-Styles-Challenge
+  ```
      
   3. Install the project dependencies by running the following command:
-     npm install
+   ```
+npm install
+```
      
-  4. Once all dependencies are installed, you can start the development server with the following command: npm run dev
+  4. Once all dependencies are installed, you can start the development server with the following command: 
+  ```
+  npm run dev
+  ```
   5. After running the command above, you'll see a message in the terminal indicating the address where the application is running. Typically, it will be [http://localhost:3000](http://localhost:3000)
 
 ## Available Commands
