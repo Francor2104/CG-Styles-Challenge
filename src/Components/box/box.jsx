@@ -18,7 +18,9 @@ const Box = () => {
                 </div>
             </div>
             <div className='cards-container'>
-              <Card items={jsonData.items}/>
+            {jsonData.items.map((item) => (
+              <Card key={item.name} item={item} />
+            ))}
             </div>
             <div className='pagination'>
                 <ul className='pagination'>

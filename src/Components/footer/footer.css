@@ -48,7 +48,7 @@
 
 
 .icons {
-    margin: 20px 0px 20px 30px;
+    margin: 20px 0px 0px 30px;
 }
 
 .hr {
@@ -58,7 +58,7 @@
     max-width: 1230px;
     border: #5762D5;
     background-color: #5762D5;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .hr2{

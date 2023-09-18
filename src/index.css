@@ -4,6 +4,29 @@
     --main-color: #39e29d;
   }
   
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #454DA8;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5762D5;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 #root {
     padding-top: 150px;

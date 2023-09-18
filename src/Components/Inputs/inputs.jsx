@@ -1,5 +1,5 @@
 import './inputs.css';
-import Box from '../box/box.jsx'
+import Box from '../box/box.jsx';
 function Inputs() {
     return(
     <>
@@ -17,7 +17,7 @@ function Inputs() {
 
             <div className='search'>
                 <img src="/search.svg" className='search-icon'/>
-                <input disabled type="text" className='searchbar' placeholder='Search' />
+                <input type="text" className='searchbar' placeholder='Search' />
             </div>
 
             <div className='filter'>
