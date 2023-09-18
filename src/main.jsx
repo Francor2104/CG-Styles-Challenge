@@ -1,15 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './Components/navbar/navbar.jsx'
-import Inputs from './Components/Inputs/inputs.jsx'
-import Footer from './Components/footer/footer.jsx'
+import App from './App'
+
 
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App/>
-    <Inputs/>
-    <Footer/>
   </React.StrictMode>,
 )

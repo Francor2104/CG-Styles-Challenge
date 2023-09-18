@@ -2,7 +2,7 @@ import "./Navbar.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-function App() {
+function Navbar() {
   
   return (
     <>
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navbar;
