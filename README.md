@@ -3,7 +3,7 @@
 ## Prerequisites 
 
 Make sure you have the following prerequisites:
-  * Node.js (v.18.16.0 or above): [Download node.js](https://nodejs.org)
+  * Node.js ( version 18.16.0 or above): [Download node.js](https://nodejs.org)
   * Git: [Download and install Git](https://git-scm.com/downloads)
 
 ## Installation
