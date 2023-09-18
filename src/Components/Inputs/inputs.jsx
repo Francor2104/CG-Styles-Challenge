@@ -16,14 +16,14 @@ function Inputs() {
                 </div>
 
             <div className='search'>
-                <img src="/public/search.svg" className='search-icon'/>
+                <img src="/search.svg" className='search-icon'/>
                 <input disabled type="text" className='searchbar' placeholder='Search' />
             </div>
 
             <div className='filter'>
             <div className='select-filter-bg'>
                 <div className='display-block'><label className='small'>Price</label></div>
-                <img src="/public/money-bag.png" className='filter-icon' />
+                <img src="/money-bag.png" className='filter-icon' />
                 <select disabled className='select-filter'>
                 <option selected value="All">All</option>
                 </select>
@@ -31,7 +31,7 @@ function Inputs() {
 
             <div className='select-filter-bg'>
                 <div className='display-block'><label className='small'>Item Type</label></div>
-                <img src="/public/feather.png" className='filter-icon' />
+                <img src="/feather.png" className='filter-icon' />
                 <select disabled className='select-filter'>
                 <option selected value="All">All</option>
                 </select>

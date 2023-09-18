@@ -18,7 +18,7 @@ const Card = ({ items }) => {
               <div className='prod-titles'>
                 <div className="titles">
                   <p className='prod-name'>{item.name}</p>
-                  <img src="/public/icons/Zelda.png" className='zelda-icon' />
+                  <img src="/icons/Zelda.png" className='zelda-icon' />
                 </div>
                 {item.discount > 0 ? (
                   <>
@@ -39,8 +39,8 @@ const Card = ({ items }) => {
             <div className='quant'>
               <input disabled type="number" className='cant' placeholder='1' />
               <div className="arrows">
-                <img src="./public/icons/accordian_arrow.svg" className='up-arrow' alt="Up Arrow" />
-                <img src="./public/icons/accordian_arrow.svg" className='down-arrow' alt="Down Arrow" />
+                <img src="/icons/accordian_arrow.svg" className='up-arrow' alt="Up Arrow" />
+                <img src="/icons/accordian_arrow.svg" className='down-arrow' alt="Down Arrow" />
               </div>
             </div>
           </div>

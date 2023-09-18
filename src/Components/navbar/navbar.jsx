@@ -57,7 +57,7 @@ function App() {
 
           <div className="sign">
             <button href="#" className="user2">
-              <span className="button-text"> SIGN IN</span><img className="user-icon" src="../public/profile.png" alt=""/>
+              <span className="button-text"> SIGN IN</span><img className="user-icon" src="/profile.png" alt=""/>
             </button>
           </div>
         </div>
