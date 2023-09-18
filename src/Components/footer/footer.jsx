@@ -9,11 +9,11 @@ const Footer = () => {
             <div className='row'>
                 <div className='row-payment'>
                     <div className='logos'>
-                        <img className='pay-icons' src='/public/icons/visa.svg'/>
-                        <img className='pay-icons' src='../public/icons/mastercard.svg'/>
-                        <img className='pay-icons' src='../public/icons/amex.svg'/>
-                        <img className='pay-icons' src='../public/icons/skrill.svg'/>
-                        <img className='pay-icons'src='../public/icons/crypto.svg' alt="" />
+                        <img className='pay-icons' src='/icons/visa.svg'/>
+                        <img className='pay-icons' src='/icons/mastercard.svg'/>
+                        <img className='pay-icons' src='/icons/amex.svg'/>
+                        <img className='pay-icons' src='/icons/skrill.svg'/>
+                        <img className='pay-icons'src='/icons/crypto.svg' alt="" />
                         <a className='more'> and 50+ more</a>
                     </div>
                 </div>
@@ -22,17 +22,17 @@ const Footer = () => {
         <div className="list">
             <div className='row'>
                 <div className='row-payment'>
-                    <a target='_blank' rel='noreferrer' href='https://www.facebook.com/Chicksgroup/'><img className='icons' src='../icons/facebook.svg'/></a>
-                    <a target='_blank' rel='noreferrer' href='https://www.instagram.com/chicksgold/'><img className='icons' src='../icons/instagram.svg'/></a>
-                    <a target='_blank' rel='noreferrer' href='https://twitter.com/chicksgold'><img className='icons' src='../icons/twitter.svg'/></a>
-                    <a target='_blank' rel='noreferrer' href='https://discord.com/invite/chicksgold'><img className='icons' src='../icons/discord.svg'/></a>
+                    <a target='_blank' rel='noreferrer' href='https://www.facebook.com/Chicksgroup/'><img className='icons' src='/icons/facebook.svg'/></a>
+                    <a target='_blank' rel='noreferrer' href='https://www.instagram.com/chicksgold/'><img className='icons' src='/icons/instagram.svg'/></a>
+                    <a target='_blank' rel='noreferrer' href='https://twitter.com/chicksgold'><img className='icons' src='/icons/twitter.svg'/></a>
+                    <a target='_blank' rel='noreferrer' href='https://discord.com/invite/chicksgold'><img className='icons' src='/icons/discord.svg'/></a>
                 </div>
             </div>
             <hr className="hr"/>
             <div className="row">
                 <div className="row-payment">
                 <div className="footer-list">
-                    <img className='img' src="/public/chicks-logo.png"/>
+                    <img className='img' src="chicks-logo.png"/>
                     <p>support@chicksgold.com</p>
                 </div>
                 <hr className='hr2'/>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <hr className='hr2'/>
                 <div className='footer-list review'>
                     <div className='review'>
-                    <img className='stars' src='../public/icons/stars-5-1.png'/>
+                    <img className='stars' src='/icons/stars-5-1.png'/>
                     <p className='reviews'> Trustpilot Reviews  </p>
 
                     </div>

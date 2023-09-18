@@ -13,7 +13,7 @@ function App() {
           <MenuIcon className="icon"/>
           </a>
         <div className="brand">
-          <img className="logo" src="../public/chicks-logo.png" alt="logo" />
+          <img className="logo" src="/chicks-logo.png" alt="logo" />
         </div>
         <div className="divider"></div>
 

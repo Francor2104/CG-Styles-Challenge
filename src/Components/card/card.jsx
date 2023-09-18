@@ -13,7 +13,7 @@ const Card = ({ items }) => {
                 <label className={`stock ${item.discount <= 0 ? 'no-disc' : ''}`}>In stock</label>
               </div>
               <div className="picture">
-                <img src={`/public/${item.image}`} className='prod-image' alt={item.name} />
+                <img src={`${item.image}`} className='prod-image' alt={item.name} />
               </div>
               <div className='prod-titles'>
                 <div className="titles">
