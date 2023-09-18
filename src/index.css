@@ -25,11 +25,10 @@ html {
   }
 
 body {
-    position: relative;
     background: linear-gradient(rgba(48, 49, 65, 0.90),rgba(48, 49, 65, 0.90)),
-    url('../public/background-modified.jpg') no-repeat center
-    center fixed;
+    url('../public/background-modified.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
+    height: 100vh;
 }

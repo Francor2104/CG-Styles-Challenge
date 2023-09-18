@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './Components/navbar/navbar.jsx'
-import Inputs from './Components/Inputs/Inputs.jsx'
+import Inputs from './Components/Inputs/inputs.jsx'
 import Footer from './Components/footer/footer.jsx'
 
 import './index.css'
