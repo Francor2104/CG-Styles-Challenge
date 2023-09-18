@@ -9,7 +9,7 @@ function Inputs() {
         </div>
         <div className='row-container'>
                 <div className='select-game-bg'>
-                    <img src="/public/sword.png" className='sw-icon'/>
+                    <img src="/sword.png" className='sw-icon'/>
                     <select disabled className='select-game'>
                     <option selected value="Select a Game">Select a Game</option>
                     </select>
