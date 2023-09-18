@@ -25,7 +25,7 @@ npm install
   ```
   npm run dev
   ```
-  5. After running the command above, you'll see a message in the terminal indicating the address where the application is running. Typically, it will be [http://localhost:3000](http://localhost:3000)
+  5. After running the command above, you'll see a message in the terminal indicating the address where the application is running. Typically, it will be [http://localhost:5173](http://localhost:5173)
 
 ## Available Commands
 
