@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Navbar() {
   
@@ -9,10 +10,10 @@ function Navbar() {
     <header>
 
       <div className="navbar">
+        <div className="brand">
           <a className="menu-toggle">
           <MenuIcon className="icon"/>
           </a>
-        <div className="brand">
           <img className="logo" src="/chicks-logo.png" alt="logo" />
         </div>
         <div className="divider"></div>
@@ -20,34 +21,34 @@ function Navbar() {
         <div className="navbar-menu">
           <div className="dropdown-header">
             <span>CURRENCY</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
           <div className="dropdown-header">
             <span>ITEMS</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
           <div className="dropdown-header">
             <span>ACCOUNTS</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
           <div className="dropdown-header">
             <span>SERVICES</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
           <div className="dropdown-header">
             <span>MORE</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
           <div className="dropdown-header">
             <span>SELL</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
         </div>
 
         <div className="navbar-end">
           <div className="dropdown-header end">
             <span>USD</span>
-            <span className="dropdown-arrow"></span>
+            <KeyboardArrowDownIcon className="dropdown-arrow"/>
           </div>
 
           <div className="dropdown-header end">

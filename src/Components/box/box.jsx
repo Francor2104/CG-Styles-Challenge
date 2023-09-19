@@ -28,7 +28,8 @@ const Box = () => {
                     <li className='li selected'>1</li>
                     <li className='li'>2</li>
                     <li className='li'>3</li>
-                    <li className='li'>4</li>
+                    <li className='li extra'>4</li>
+                    <li className='li extra'>5</li>
                     <li className='li'>...</li>
                     <li className='li'>11</li>
                     <li className='li arrow'>{'>'}</li>

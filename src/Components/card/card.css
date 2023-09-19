@@ -1,191 +1,202 @@
 .card {
-    display: flex;
-    height: 336px;
-    width: 220px;
-    flex: auto;
-    border-radius: 5px;
-    background-color: #4c608526;
-    margin: 5px;
+  display: flex;
+  height: 336px;
+  width: 220px;
+  flex: auto;
+  border-radius: 5px;
+  background-color: #4c608526;
+  margin: 5px;
 }
 
 .card-body {
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    margin: 16px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 16px;
 }
 
 .prod-titles {
-    display: flex;
-    flex-direction: column;
-    color: #F6F6F6;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  color: #f6f6f6;
+  flex-grow: 1;
 }
 
 .row1 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .label {
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-    color: #FFF;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: #fff;
 }
 
 .sale::before {
-    content: "";
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    background-color: #39e29d;
-    border-radius: 50%;
-    margin-right: 4px;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #39e29d;
+  border-radius: 50%;
+  margin-right: 4px;
 }
 
 .stock {
-    color: #39e29e70;
-    border: 1px solid #39e29e70;
-    border-radius: 5px;
-    min-width: 60px;
-    width: 20%;
-    margin-top: 15px    ;
-    padding: 2px 9px;
+  color: #39e29e70;
+  border: 1px solid #39e29e70;
+  border-radius: 5px;
+  min-width: 60px;
+  width: 20%;
+  margin-top: 15px;
+  padding: 2px 9px;
 }
 
 .no-disc {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .quant {
-    display: inline-flex;
-    position: absolute;
-    top: 0;
-    right: 0;
-    justify-content: space-between;
-    width: 60px;
-    height: 46px;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #4C608533;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: space-between;
+  width: 60px;
+  height: 46px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4c608533;
 }
 
 .cant {
-    border: none;
-    outline: none;
-    caret-color: #FFF;
-    color: #FFF;
-    width: 40px;
-    border: 0;
-    background-color: transparent;
+  border: none;
+  outline: none;
+  caret-color: #fff;
+  color: #fff;
+  width: 40px;
+  border: 0;
+  background-color: transparent;
 }
 
 .arrows {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.quant:hover .arrows {
+  display: flex;
+}
 
 .cant::placeholder {
-    color: #FFF;
+  color: #fff;
 }
 
 .up-arrow {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .prod-image {
-    padding-top: 30px;
-    width: 80px;
-    height: 110px;
-    object-fit: contain;
-    margin-bottom: 10px;
+  padding-top: 30px;
+  width: 80px;
+  height: 110px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .prod-name {
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .prod-price {
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .titles {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
 }
 
 .zelda-icon {
-    height: 32px;
+  height: 32px;
 }
 
 .disc {
-    margin-left: 10px;
-    font-size: 14px;
-    color: #808080;
-    text-decoration: line-through !important;
-    text-decoration-color: red !important;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #808080;
+  text-decoration: line-through !important;
+  text-decoration-color: red !important;
 }
 
 .prod-desc {
-    font-size: 12px;
-    margin-bottom: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .buttons {
-    display: flex;
-    margin-top: auto;
+  display: flex;
+  margin-top: auto;
 }
 
 .details {
-    background-color: #4C608533;
-    color: #D3D3D3;
-    height: 45px;
-    width: 50%;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 5px;
+  background-color: #4c608533;
+  color: #d3d3d3;
+  height: 45px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: 0.3s ease;
+}
+
+.details:hover {
+  background-color: #4c60851d;
 }
 
 .buy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    width: 50%;
-    border: 0;
-    border-radius: 5px;
-    background-color: #5762D5;
-    color: #FFFFFF;
-    margin: 0 5px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: #5762d5;
+  color: #ffffff;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buy:hover {
+  background-color: #454da8;
 }
 
 .tocart {
-    background-color: #454da8;
-    color: #FFFFFF;
-    padding: 5px;
-    margin: 0 4px;
-    border-radius: 5px;
+  background-color: #454da8;
+  color: #ffffff;
+  padding: 5px;
+  margin: 0 4px;
+  border-radius: 5px;
 }
 
 .cards-container {
-    display: flex;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 10px;
-    flex: auto;
-    flex-wrap: wrap;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  flex: auto;
+  flex-wrap: wrap;
 }
-

@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="row-payment">
                 <div className="footer-list">
                     <img className='img' src="chicks-logo.png"/>
-                    <p>support@chicksgold.com</p>
+                    <p className='support'>support@chicksgold.com</p>
                 </div>
                 <hr className='hr2'/>
                 <div className="footer-list">
